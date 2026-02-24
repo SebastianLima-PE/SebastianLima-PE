@@ -243,7 +243,10 @@ const sebastian: Developer = {
 
 **⭐ Si algo de mi trabajo te fue útil, ¡dale una estrella al repo!**
 
-</div>#   S e b a s t i a n L i m a - P E  
- #   S e b a s t i a n L i m a - P E  
- #   S e b a s t i a n L i m a - P E  
+</div>#   S e b a s t i a n L i m a - P E 
+ 
+ #   S e b a s t i a n L i m a - P E 
+ 
+ #   S e b a s t i a n L i m a - P E 
+ 
  
