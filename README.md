@@ -52,7 +52,7 @@ const sebastian: Developer = {
 
 <a href="mailto:U202314115@upc.edu.pe"><img src="https://img.shields.io/badge/Email-U202314115%40upc.edu.pe-22d3ee?style=flat-square&labelColor=020817" /></a>
 <a href="https://github.com/SebastianLima-PE"><img src="https://img.shields.io/badge/GitHub-SebastianLima--PE-ffffff?style=flat-square&logo=github&labelColor=020817" /></a>
-<a href="https://wa.me/51933931880"><img src="https://img.shields.io/badge/WhatsApp-%2B51_933_931_880-22c55e?style=flat-square&labelColor=020817" /></a>
+<a href=""><img src="https://img.shields.io/badge/WhatsApp-Escribeme-22c55e?style=flat-square&labelColor=020817" /></a>
 <a href="https://maps.google.com/?q=Lima,Peru"><img src="https://img.shields.io/badge/Lima-Peru-fbbf24?style=flat-square&labelColor=020817" /></a>
 
 ---
@@ -125,7 +125,7 @@ Aplicación web **SaaS** para la gestión y análisis del uso de tarjetas de cr�
 - ⚛️ Interfaz **React** responsive con navegación dinámica
 - 🚀 Deploy en **Vercel** con CI/CD
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=020817"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=020817"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/> <img src="https://img.shields.io/badge/PayPal-00457C?style=flat-square&logo=paypal&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
 <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
