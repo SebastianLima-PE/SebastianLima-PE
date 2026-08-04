@@ -1,0 +1,83 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="50%" style="stop-color:#111111"/>
+      <stop offset="100%" style="stop-color:#0d0d0d"/>
+    </linearGradient>
+    <radialGradient id="hGlowL" cx="10%" cy="30%" r="45%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.10"/>
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="hGlowR" cx="92%" cy="75%" r="45%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="hsoft"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <rect width="900" height="220" fill="url(#hbg)"/>
+  <rect width="900" height="220" fill="url(#hGlowL)"/>
+  <rect width="900" height="220" fill="url(#hGlowR)"/>
+
+  <!-- ROW 1 -->
+  <!-- Tile 1 : 3 apps en producción -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="0.1s"/>
+    <rect x="15" y="8" width="280" height="95" rx="9" fill="#101014" stroke="#10b981" stroke-width="1" stroke-opacity="0.4"/>
+    <rect x="15" y="8" width="3.5" height="95" rx="1.75" fill="#10b981"/>
+    <text x="38" y="52" font-family="Georgia, 'Palatino Linotype', serif" font-size="30" font-weight="bold" fill="#10b981" filter="url(#hsoft)">3</text>
+    <text x="38" y="74" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#f0f0e8">Apps en producción</text>
+    <text x="38" y="90" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="8.5" fill="#7a7a72">FinTú · Ferova Family · Ferova Clinic</text>
+  </g>
+
+  <!-- Tile 2 : Top 10% -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="0.25s"/>
+    <rect x="310" y="8" width="280" height="95" rx="9" fill="#101014" stroke="#d4af37" stroke-width="1" stroke-opacity="0.4"/>
+    <rect x="310" y="8" width="3.5" height="95" rx="1.75" fill="#d4af37"/>
+    <text x="333" y="52" font-family="Georgia, 'Palatino Linotype', serif" font-size="30" font-weight="bold" fill="#d4af37" filter="url(#hsoft)">Top 10%</text>
+    <text x="333" y="74" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#f0f0e8">Décimo superior</text>
+    <text x="333" y="90" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="8.5" fill="#7a7a72">UPC — Ingeniería de Software</text>
+  </g>
+
+  <!-- Tile 3 : 4 certificaciones -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="0.4s"/>
+    <rect x="605" y="8" width="280" height="95" rx="9" fill="#101014" stroke="#64ffda" stroke-width="1" stroke-opacity="0.35"/>
+    <rect x="605" y="8" width="3.5" height="95" rx="1.75" fill="#64ffda"/>
+    <text x="628" y="52" font-family="Georgia, 'Palatino Linotype', serif" font-size="30" font-weight="bold" fill="#64ffda" filter="url(#hsoft)">4</text>
+    <text x="628" y="74" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#f0f0e8">Certificaciones en 2026</text>
+    <text x="628" y="90" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="8.5" fill="#7a7a72">Google · AWS · U. Michigan · Power BI</text>
+  </g>
+
+  <!-- ROW 2 -->
+  <!-- Tile 4 : lenguajes -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="0.55s"/>
+    <rect x="15" y="117" width="280" height="95" rx="9" fill="#101014" stroke="#64ffda" stroke-width="1" stroke-opacity="0.35"/>
+    <rect x="15" y="117" width="3.5" height="95" rx="1.75" fill="#64ffda"/>
+    <text x="38" y="161" font-family="Georgia, 'Palatino Linotype', serif" font-size="30" font-weight="bold" fill="#64ffda" filter="url(#hsoft)">10+</text>
+    <text x="38" y="183" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#f0f0e8">Lenguajes &amp; frameworks</text>
+    <text x="38" y="199" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="8.5" fill="#7a7a72">TS · Kotlin · Dart · Python · Java · C#</text>
+  </g>
+
+  <!-- Tile 5 : APIs REST -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="0.7s"/>
+    <rect x="310" y="117" width="280" height="95" rx="9" fill="#101014" stroke="#10b981" stroke-width="1" stroke-opacity="0.4"/>
+    <rect x="310" y="117" width="3.5" height="95" rx="1.75" fill="#10b981"/>
+    <text x="333" y="161" font-family="Georgia, 'Palatino Linotype', serif" font-size="30" font-weight="bold" fill="#10b981" filter="url(#hsoft)">2</text>
+    <text x="333" y="183" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#f0f0e8">APIs REST documentadas</text>
+    <text x="333" y="199" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="8.5" fill="#7a7a72">Node/Express · TypeScript + Swagger</text>
+  </g>
+
+  <!-- Tile 6 : CI/CD -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="0.85s"/>
+    <rect x="605" y="117" width="280" height="95" rx="9" fill="#101014" stroke="#d4af37" stroke-width="1" stroke-opacity="0.4"/>
+    <rect x="605" y="117" width="3.5" height="95" rx="1.75" fill="#d4af37"/>
+    <text x="628" y="161" font-family="Georgia, 'Palatino Linotype', serif" font-size="30" font-weight="bold" fill="#d4af37" filter="url(#hsoft)">CI/CD</text>
+    <text x="628" y="183" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#f0f0e8">Despliegue automatizado</text>
+    <text x="628" y="199" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="8.5" fill="#7a7a72">GitHub Actions · Vercel · Cloudflare</text>
+  </g>
+
+  <!-- subtle sweep -->
+  <rect x="-160" y="0" width="160" height="220" fill="#ffffff" opacity="0.025">
+    <animateTransform attributeName="transform" type="translate" values="0,0;1060,0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>

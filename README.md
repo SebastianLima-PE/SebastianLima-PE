@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Sebastian Pariachi"/>
+<img src="./assets/banner.svg" width="100%" alt="Sebastian Pariachi — Full Stack & Mobile Developer"/>
 
 <br/>
 
@@ -14,13 +14,18 @@
 
 <br/><br/>
 
-<!-- Navegación interactiva -->
+<!-- Navegación -->
 <a href="#sobre-mi"><img src="https://img.shields.io/badge/💡_Sobre_mí-0a192f?style=for-the-badge" /></a>
 <a href="#stack"><img src="https://img.shields.io/badge/🛠️_Stack-0a192f?style=for-the-badge" /></a>
 <a href="#proyectos"><img src="https://img.shields.io/badge/🚀_Proyectos-0a192f?style=for-the-badge" /></a>
 <a href="#roadmap"><img src="https://img.shields.io/badge/🗺️_Roadmap-0a192f?style=for-the-badge" /></a>
 <a href="#certificaciones"><img src="https://img.shields.io/badge/📜_Certificaciones-0a192f?style=for-the-badge" /></a>
-<a href="https://creditsmart-pe.vercel.app"><img src="https://img.shields.io/badge/🌐_Demo_en_Vivo-64ffda?style=for-the-badge&labelColor=0a192f" /></a>
+
+<br/>
+
+<!-- Demos en vivo -->
+<a href="https://fintu-co.pages.dev/"><img src="https://img.shields.io/badge/🌐_Demo_FinTú-64ffda?style=for-the-badge&labelColor=0a192f" /></a>
+<a href="https://sanuvi-minsa.github.io/ferova-landing-page/"><img src="https://img.shields.io/badge/🩺_Demo_Ferova-10b981?style=for-the-badge&labelColor=0a192f" /></a>
 
 </div>
 
@@ -49,6 +54,12 @@ const sebastian: Developer = {
 };
 ```
 
+<div align="center">
+
+<img src="./assets/highlights.svg" width="100%" alt="Highlights: 3 apps en producción · Top 10% décimo superior · 4 certificaciones · 10+ lenguajes y frameworks · 2 APIs REST documentadas · CI/CD automatizado"/>
+
+</div>
+
 ---
 
 ### 🎯 En qué trabajo
@@ -59,15 +70,15 @@ const sebastian: Developer = {
 - 🔐 Implementando **autenticación JWT** + cifrado bcrypt
 - 🗄️ Modelando bases de datos **SQL & NoSQL** optimizadas
 - 💰 Integrando pasarelas de pago (**PayPal API**)
-- 🚀 Automatizando **CI/CD con GitHub Actions** + deploy en **Vercel**
+- 🚀 Automatizando **CI/CD con GitHub Actions** + deploy en **Cloudflare Pages** y **Vercel**
 - 🧭 Aplicando **DDD**, arquitectura por capas y **SCRUM**
 
 <a name="contacto"></a>
 ### 📬 Contáctame
 
 <a href="mailto:sebastianpariachi.l@gmail.com?subject=Oportunidad%20de%20pr%C3%A1cticas"><img src="https://img.shields.io/badge/Email-sebastianpariachi.l%40gmail.com-64ffda?style=flat-square&labelColor=0a192f" /></a>
-<a href="https://github.com/SebastianLima-PE"><img src="https://img.shields.io/badge/GitHub-SebastianLima--PE-ffffff?style=flat-square&logo=github&labelColor=0a192f" /></a>
 <a href="https://linkedin.com/in/sebastian-pariachi-limahuaya-4974b0377"><img src="https://img.shields.io/badge/LinkedIn-Sebastian_Pariachi-0077B5?style=flat-square&logo=linkedin&labelColor=0a192f" /></a>
+<a href="https://github.com/SebastianLima-PE"><img src="https://img.shields.io/badge/GitHub-SebastianLima--PE-ffffff?style=flat-square&logo=github&labelColor=0a192f" /></a>
 
 ---
 
@@ -115,81 +126,79 @@ const sebastian: Developer = {
 
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cloudflare_Pages-F38020?style=for-the-badge&logo=cloudflare&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=0a192f"/>
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logoColor=0a192f"/>
 
 </div>
 
 ---
 
-<div align="center">
-<h3><code>{ GitHub Stats }</code> 📊</h3>
-
-<img src="https://github-readme-stats.vercel.app/api?username=SebastianLima-PE&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="180"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SebastianLima-PE&layout=compact&langs_count=7&theme=tokyonight&hide_border=true" height="180"/>
-
-<br/><br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SebastianLima-PE&theme=tokyonight" width="100%"/>
-
-</div>
-
----
-
 <a name="proyectos"></a>
-### 🚀 Proyectos Destacados
+<div align="center"><h3><code>{ Proyectos Destacados }</code> 🚀</h3></div>
 
 ### 🩺 Ferova — Ecosistema móvil contra la anemia infantil
 
-> **Mar 2026 – Jul 2026** | Proyecto académico grupal (UPC) | Rol: **Desarrollador Móvil Full Stack**
+<div align="center">
 
-Sistema de **dos aplicaciones móviles conectadas** para el tratamiento de la anemia infantil, diseñado para implementarse en las instalaciones de salud del **MINSA**.
+<a href="https://sanuvi-minsa.github.io/ferova-landing-page/"><img src="https://img.shields.io/badge/🌐_VER_LANDING_EN_VIVO-10b981?style=for-the-badge&labelColor=0a192f" /></a>
+<img src="https://img.shields.io/badge/Mar_–_Jul_2026-0a192f?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Rol-Dev_Móvil_Full_Stack-0a192f?style=for-the-badge" />
 
-- 📱 **Ferova Family** (Kotlin, Android nativo) — app para madres y apoderados: registro y confirmación diaria de dosis, diario nutricional, **gamificación con rachas**, teleconsulta con la enfermera asignada y mapa de centros de salud.
-- 🏥 **Ferova Clinic** (Flutter) — app para personal de salud: panel de pacientes con **semáforo de riesgo**, **score de predicción de abandono** del tratamiento y registro de controles de hemoglobina.
-- 🔄 Backend en **TypeScript** con **API REST documentada con Swagger**, sincronizando los datos entre la familia y el personal médico.
+</div>
+
+> *"Vence la anemia con cada dosis"* — Sistema de **dos aplicaciones móviles conectadas** para el tratamiento de la anemia infantil, diseñado para implementarse en las instalaciones de salud del **MINSA**. Desarrollado bajo la marca **Sanuvi** (Salud Digital en el Perú), en colaboración con puestos de salud del MINSA y la UPC.
+
+**📱 Ferova Family** — Kotlin, Android nativo · *app para madres y apoderados*
+- Registro y confirmación diaria de dosis con recordatorios inteligentes
+- Diario nutricional con cálculo de absorción de hierro
+- **Gamificación**: rachas, insignias y logros para sostener la adherencia
+- Teleconsulta con la enfermera asignada + mapa de centros de salud cercanos
+
+**🏥 Ferova Clinic** — Flutter · *app para el personal de salud*
+- Panel de pacientes con **semáforo de riesgo**
+- **Score de predicción de abandono** del tratamiento
+- Registro y seguimiento de controles de hemoglobina en tiempo real
+
+**🔄 Backend** — TypeScript con **API REST documentada en Swagger**, que sincroniza los datos entre la familia y el personal médico.
 
 <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/> <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=0a192f"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=0a192f"/> <img src="https://img.shields.io/badge/REST_API-64ffda?style=flat-square&labelColor=0a192f"/>
 
 ---
 
-### 💳 FinTú & Co. (CreditSmart PE) — SaaS Full Stack
+### 💳 FinTú & Co. — SaaS de gestión de tarjetas de crédito
 
-> **Ene 2026 – Jul 2026** | Proyecto personal | 🌐 [creditsmart-pe.vercel.app](https://creditsmart-pe.vercel.app) | `En Producción ✅`
+<div align="center">
 
-Aplicación web **SaaS** para la gestión y análisis del uso de tarjetas de crédito orientada al **mercado peruano**.
+<a href="https://fintu-co.pages.dev/"><img src="https://img.shields.io/badge/🌐_VER_APP_EN_VIVO-64ffda?style=for-the-badge&labelColor=0a192f" /></a>
+<img src="https://img.shields.io/badge/Ene_–_Jul_2026-0a192f?style=for-the-badge" />
+<img src="https://img.shields.io/badge/En_Producción-10b981?style=for-the-badge&labelColor=0a192f" />
+
+</div>
+
+> Aplicación web **SaaS** para la gestión y el análisis del uso de tarjetas de crédito, orientada al **mercado peruano**. Proyecto personal de punta a punta: del modelado de datos al despliegue automatizado.
 
 - 🛠️ **API RESTful** (Node.js + Express) con módulos de usuarios, tarjetas y transacciones
 - 🔐 Autenticación con **JWT** + cifrado **bcrypt**; MySQL optimizada para **datos financieros**
 - ⚛️ Interfaz **React** responsive con React Router y navegación dinámica
 - 💰 Integración de **PayPal** para suscripciones y monetización automática
-- 🚀 **CI/CD con GitHub Actions** en cada push a `main` + deploy público en **Vercel**
+- 🚀 **CI/CD con GitHub Actions** en cada push a `main` + deploy en **Cloudflare Pages**
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=0a192f"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/> <img src="https://img.shields.io/badge/PayPal-00457C?style=flat-square&logo=paypal&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=0a192f"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/> <img src="https://img.shields.io/badge/PayPal-00457C?style=flat-square&logo=paypal&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/> <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white"/>
 
 ---
 
 <a name="roadmap"></a>
-<div align="center"><h3><code>{ Roadmap }</code> 🗺️</h3></div>
+<div align="center">
 
-```mermaid
-timeline
-    title Mi camino en Ingeniería de Software
-    2023 : 🎓 Ingreso a UPC — Ingeniería de Software
-    2025 : 🏆 Décimo superior de la carrera
-         : 🛒 Saga Falabella — inventario de 500+ SKUs
-    Ene 2026 : 💳 FinTú Co. — SaaS financiero en producción
-    Feb 2026 : 📊 Power BI Intensivo — IDAT e Intercorp
-    Mar 2026 : 🩺 Ferova — 2 apps de salud (Kotlin + Flutter)
-             : 🧰 Google IT Support Professional Certificate
-    Abr 2026 : 🐍 Python for Everybody — U. de Michigan
-    Jun 2026 : ☁️ AWS — Fundamentals de ML e IA
-    2027 : 💼 Prácticas pre-profesionales — ¿tu equipo? 👀
-```
+<h3><code>{ Roadmap }</code> 🗺️</h3>
+
+<img src="./assets/roadmap.svg" width="100%" alt="Roadmap: 2023 ingreso a UPC · 2025 décimo superior · Ene 2026 FinTú & Co. · Mar 2026 Ferova con MINSA · Feb-Jul 2026 cuatro certificaciones · 2027 prácticas pre-profesionales"/>
+
+</div>
 
 ---
 
@@ -212,15 +221,6 @@ timeline
 <h3><code>{ Actividad }</code> 📈</h3>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=SebastianLima-PE&bg_color=1a1b27&color=64ffda&line=00b4d8&point=f8c555&area=true&hide_border=true"/>
-
-</div>
-
----
-
-<div align="center">
-<h3><code>{ Trofeos }</code> 🏆</h3>
-
-<img src="https://github-profile-trophy.vercel.app/?username=SebastianLima-PE&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7"/>
 
 </div>
 

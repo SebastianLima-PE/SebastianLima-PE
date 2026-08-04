@@ -1,16 +1,16 @@
-<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0a0a0a"/>
       <stop offset="50%" style="stop-color:#111111"/>
       <stop offset="100%" style="stop-color:#0d0d0d"/>
     </linearGradient>
-    <radialGradient id="goldGlow" cx="20%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:0.15"/>
+    <radialGradient id="goldGlow" cx="20%" cy="45%" r="52%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:0.16"/>
       <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:0"/>
     </radialGradient>
-    <radialGradient id="emeraldGlow" cx="80%" cy="50%" r="45%">
-      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.12"/>
+    <radialGradient id="emeraldGlow" cx="80%" cy="50%" r="48%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.13"/>
       <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:0"/>
     </radialGradient>
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -18,16 +18,15 @@
       <stop offset="40%" style="stop-color:#f5f5f0"/>
       <stop offset="100%" style="stop-color:#10b981"/>
     </linearGradient>
-    <!-- Shimmer gradient for name -->
     <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:0">
-        <animate attributeName="offset" values="-1;2" dur="3s" repeatCount="indefinite"/>
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0">
+        <animate attributeName="offset" values="-0.4;1.4" dur="4.5s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="20%" style="stop-color:#ffffff;stop-opacity:0.6">
-        <animate attributeName="offset" values="-0.8;2.2" dur="3s" repeatCount="indefinite"/>
+      <stop offset="8%" style="stop-color:#ffffff;stop-opacity:0.55">
+        <animate attributeName="offset" values="-0.32;1.48" dur="4.5s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="40%" style="stop-color:#d4af37;stop-opacity:0">
-        <animate attributeName="offset" values="-0.6;2.4" dur="3s" repeatCount="indefinite"/>
+      <stop offset="16%" style="stop-color:#ffffff;stop-opacity:0">
+        <animate attributeName="offset" values="-0.24;1.56" dur="4.5s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
     <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -40,103 +39,80 @@
       <stop offset="50%" style="stop-color:#10b981;stop-opacity:0.8"/>
       <stop offset="100%" style="stop-color:#10b981;stop-opacity:0"/>
     </linearGradient>
-    <!-- Scan line gradient -->
     <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#d4af37;stop-opacity:0"/>
-      <stop offset="50%" style="stop-color:#d4af37;stop-opacity:0.08"/>
+      <stop offset="50%" style="stop-color:#d4af37;stop-opacity:0.07"/>
       <stop offset="100%" style="stop-color:#d4af37;stop-opacity:0"/>
     </linearGradient>
-    <filter id="strongglow">
-      <feGaussianBlur stdDeviation="9" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="softglow">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="bannerClip">
-      <rect width="900" height="300"/>
-    </clipPath>
+    <filter id="strongglow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="softglow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="bannerClip"><rect width="900" height="320"/></clipPath>
   </defs>
 
-  <!-- Base background -->
-  <rect width="900" height="300" fill="url(#bg)"/>
-  <rect width="900" height="300" fill="url(#goldGlow)"/>
-  <rect width="900" height="300" fill="url(#emeraldGlow)"/>
+  <rect width="900" height="320" fill="url(#bg)"/>
+  <rect width="900" height="320" fill="url(#goldGlow)"/>
+  <rect width="900" height="320" fill="url(#emeraldGlow)"/>
 
-  <!-- SCAN LINE - moves top to bottom continuously -->
-  <rect x="0" y="0" width="900" height="60" fill="url(#scanGrad)" clip-path="url(#bannerClip)">
-    <animateTransform attributeName="transform" type="translate" values="0,-60;0,360" dur="4s" repeatCount="indefinite"/>
+  <!-- Scan line -->
+  <rect x="0" y="0" width="900" height="64" fill="url(#scanGrad)" clip-path="url(#bannerClip)">
+    <animateTransform attributeName="transform" type="translate" values="0,-64;0,384" dur="4.5s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- PARTICLES - floating dots animated -->
+  <!-- Floating particles -->
   <g clip-path="url(#bannerClip)">
-    <!-- Gold floating particles -->
-    <circle cx="120" cy="80" r="1.5" fill="#d4af37" opacity="0">
-      <animate attributeName="opacity" values="0;0.8;0" dur="4s" begin="0s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0;-15,-40;-30,-80" dur="4s" begin="0s" repeatCount="indefinite"/>
+    <circle cx="120" cy="90" r="1.5" fill="#d4af37" opacity="0">
+      <animate attributeName="opacity" values="0;0.8;0" dur="4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;-15,-40;-30,-80" dur="4s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="250" cy="200" r="1.2" fill="#d4af37" opacity="0">
+    <circle cx="250" cy="215" r="1.2" fill="#d4af37" opacity="0">
       <animate attributeName="opacity" values="0;0.7;0" dur="5s" begin="1s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="translate" values="0,0;10,-50;20,-100" dur="5s" begin="1s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="650" cy="180" r="1.8" fill="#d4af37" opacity="0">
+    <circle cx="655" cy="195" r="1.8" fill="#d4af37" opacity="0">
       <animate attributeName="opacity" values="0;0.9;0" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="translate" values="0,0;-8,-45;-16,-90" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="780" cy="100" r="1.3" fill="#d4af37" opacity="0">
+    <circle cx="782" cy="110" r="1.3" fill="#d4af37" opacity="0">
       <animate attributeName="opacity" values="0;0.6;0" dur="4.5s" begin="2s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="translate" values="0,0;12,-55;24,-110" dur="4.5s" begin="2s" repeatCount="indefinite"/>
     </circle>
-    <!-- Emerald floating particles -->
-    <circle cx="180" cy="150" r="1.4" fill="#10b981" opacity="0">
+    <circle cx="180" cy="165" r="1.4" fill="#10b981" opacity="0">
       <animate attributeName="opacity" values="0;0.8;0" dur="4.2s" begin="1.5s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="translate" values="0,0;8,-48;16,-96" dur="4.2s" begin="1.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="720" cy="220" r="1.6" fill="#10b981" opacity="0">
+    <circle cx="722" cy="235" r="1.6" fill="#10b981" opacity="0">
       <animate attributeName="opacity" values="0;0.7;0" dur="3.8s" begin="0.8s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="translate" values="0,0;-10,-52;-20,-104" dur="3.8s" begin="0.8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="500" cy="240" r="1.2" fill="#10b981" opacity="0">
+    <circle cx="505" cy="255" r="1.2" fill="#10b981" opacity="0">
       <animate attributeName="opacity" values="0;0.6;0" dur="5.2s" begin="2.5s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="translate" values="0,0;5,-60;10,-120" dur="5.2s" begin="2.5s" repeatCount="indefinite"/>
     </circle>
-    <!-- White particles -->
-    <circle cx="400" cy="100" r="1.0" fill="white" opacity="0">
+    <circle cx="400" cy="108" r="1.0" fill="#ffffff" opacity="0">
       <animate attributeName="opacity" values="0;0.5;0" dur="3.2s" begin="0.3s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="translate" values="0,0;-6,-40;-12,-80" dur="3.2s" begin="0.3s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="580" cy="160" r="0.9" fill="white" opacity="0">
-      <animate attributeName="opacity" values="0;0.4;0" dur="4.8s" begin="1.8s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0;9,-35;18,-70" dur="4.8s" begin="1.8s" repeatCount="indefinite"/>
-    </circle>
   </g>
 
-  <!-- TWINKLING STARS -->
+  <!-- Twinkling stars -->
   <g fill="#d4af37">
     <circle cx="45" cy="35" r="1.4" filter="url(#softglow)"><animate attributeName="opacity" values="0.9;0.1;0.9" dur="2.4s" repeatCount="indefinite"/><animate attributeName="r" values="1.4;2.2;1.4" dur="2.4s" repeatCount="indefinite"/></circle>
     <circle cx="855" cy="55" r="1.6" filter="url(#softglow)"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="3.1s" repeatCount="indefinite"/><animate attributeName="r" values="1.6;2.4;1.6" dur="3.1s" repeatCount="indefinite"/></circle>
-    <circle cx="820" cy="265" r="1.3" filter="url(#softglow)"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.9s" repeatCount="indefinite"/></circle>
-    <circle cx="70" cy="268" r="1.2" filter="url(#softglow)"><animate attributeName="opacity" values="0.6;0.95;0.6" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="285" r="1.3" filter="url(#softglow)"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="70" cy="288" r="1.2" filter="url(#softglow)"><animate attributeName="opacity" values="0.6;0.95;0.6" dur="2.9s" repeatCount="indefinite"/></circle>
     <circle cx="310" cy="42" r="1.0"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.7s" repeatCount="indefinite"/></circle>
-    <circle cx="600" cy="272" r="1.1"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.6s" repeatCount="indefinite"/></circle>
   </g>
   <g fill="#10b981">
-    <circle cx="875" cy="200" r="1.5" filter="url(#softglow)"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.2s" repeatCount="indefinite"/><animate attributeName="r" values="1.5;2.3;1.5" dur="2.2s" repeatCount="indefinite"/></circle>
-    <circle cx="30" cy="190" r="1.3" filter="url(#softglow)"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="875" cy="210" r="1.5" filter="url(#softglow)"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.2s" repeatCount="indefinite"/><animate attributeName="r" values="1.5;2.3;1.5" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="30" cy="200" r="1.3" filter="url(#softglow)"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.3s" repeatCount="indefinite"/></circle>
     <circle cx="450" cy="16" r="1.1"><animate attributeName="opacity" values="0.6;0.95;0.6" dur="2.7s" repeatCount="indefinite"/></circle>
-    <circle cx="155" cy="278" r="0.9"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="4.1s" repeatCount="indefinite"/></circle>
     <circle cx="745" cy="22" r="1.2"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="2.0s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- ANIMATED CORNER BRACKETS - draw-in effect -->
-  <!-- Top-left gold -->
+  <!-- Corner brackets -->
   <path d="M22,22 L22,65" stroke="#d4af37" stroke-width="2.5" fill="none" filter="url(#softglow)" stroke-dasharray="43" stroke-dashoffset="43">
-    <animate attributeName="stroke-dashoffset" values="43;0" dur="1.2s" fill="freeze" begin="0s"/>
+    <animate attributeName="stroke-dashoffset" values="43;0" dur="1.2s" fill="freeze"/>
     <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" begin="1.2s" repeatCount="indefinite"/>
   </path>
   <path d="M22,22 L65,22" stroke="#d4af37" stroke-width="2.5" fill="none" filter="url(#softglow)" stroke-dasharray="43" stroke-dashoffset="43">
@@ -147,8 +123,6 @@
     <animate attributeName="opacity" values="0;1;0.7;1" dur="0.5s" fill="freeze" begin="1.2s"/>
     <animate attributeName="r" values="3.5;5;3.5" dur="2s" begin="1.7s" repeatCount="indefinite"/>
   </circle>
-
-  <!-- Top-right gold -->
   <path d="M878,22 L878,65" stroke="#d4af37" stroke-width="2.5" fill="none" filter="url(#softglow)" stroke-dasharray="43" stroke-dashoffset="43">
     <animate attributeName="stroke-dashoffset" values="43;0" dur="1.2s" fill="freeze" begin="0.1s"/>
     <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" begin="1.3s" repeatCount="indefinite"/>
@@ -161,46 +135,39 @@
     <animate attributeName="opacity" values="0;1;0.7;1" dur="0.5s" fill="freeze" begin="1.3s"/>
     <animate attributeName="r" values="3.5;5;3.5" dur="2s" begin="1.8s" repeatCount="indefinite"/>
   </circle>
-
-  <!-- Bottom-left emerald -->
-  <path d="M22,278 L22,235" stroke="#10b981" stroke-width="2.5" fill="none" filter="url(#softglow)" stroke-dasharray="43" stroke-dashoffset="43">
+  <path d="M22,298 L22,255" stroke="#10b981" stroke-width="2.5" fill="none" filter="url(#softglow)" stroke-dasharray="43" stroke-dashoffset="43">
     <animate attributeName="stroke-dashoffset" values="43;0" dur="1.2s" fill="freeze" begin="0.4s"/>
     <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3.5s" begin="1.6s" repeatCount="indefinite"/>
   </path>
-  <path d="M22,278 L65,278" stroke="#10b981" stroke-width="2.5" fill="none" filter="url(#softglow)" stroke-dasharray="43" stroke-dashoffset="43">
+  <path d="M22,298 L65,298" stroke="#10b981" stroke-width="2.5" fill="none" filter="url(#softglow)" stroke-dasharray="43" stroke-dashoffset="43">
     <animate attributeName="stroke-dashoffset" values="43;0" dur="1.2s" fill="freeze" begin="0.6s"/>
     <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3.5s" begin="1.8s" repeatCount="indefinite"/>
   </path>
-  <circle cx="22" cy="278" r="3.5" fill="#10b981" filter="url(#glow)" opacity="0">
+  <circle cx="22" cy="298" r="3.5" fill="#10b981" filter="url(#glow)" opacity="0">
     <animate attributeName="opacity" values="0;1;0.7;1" dur="0.5s" fill="freeze" begin="1.5s"/>
     <animate attributeName="r" values="3.5;5;3.5" dur="2.2s" begin="2.0s" repeatCount="indefinite"/>
   </circle>
-
-  <!-- Bottom-right emerald -->
-  <path d="M878,278 L878,235" stroke="#10b981" stroke-width="2.5" fill="none" filter="url(#softglow)" stroke-dasharray="43" stroke-dashoffset="43">
+  <path d="M878,298 L878,255" stroke="#10b981" stroke-width="2.5" fill="none" filter="url(#softglow)" stroke-dasharray="43" stroke-dashoffset="43">
     <animate attributeName="stroke-dashoffset" values="43;0" dur="1.2s" fill="freeze" begin="0.5s"/>
     <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3.5s" begin="1.7s" repeatCount="indefinite"/>
   </path>
-  <path d="M878,278 L835,278" stroke="#10b981" stroke-width="2.5" fill="none" filter="url(#softglow)" stroke-dasharray="43" stroke-dashoffset="43">
+  <path d="M878,298 L835,298" stroke="#10b981" stroke-width="2.5" fill="none" filter="url(#softglow)" stroke-dasharray="43" stroke-dashoffset="43">
     <animate attributeName="stroke-dashoffset" values="43;0" dur="1.2s" fill="freeze" begin="0.7s"/>
     <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3.5s" begin="1.9s" repeatCount="indefinite"/>
   </path>
-  <circle cx="878" cy="278" r="3.5" fill="#10b981" filter="url(#glow)" opacity="0">
+  <circle cx="878" cy="298" r="3.5" fill="#10b981" filter="url(#glow)" opacity="0">
     <animate attributeName="opacity" values="0;1;0.7;1" dur="0.5s" fill="freeze" begin="1.6s"/>
     <animate attributeName="r" values="3.5;5;3.5" dur="2.2s" begin="2.1s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- TOP GOLD LINE - animated draw + pulse -->
-  <rect x="0" y="44" width="900" height="1" fill="url(#goldLine)" opacity="0" >
+  <rect x="0" y="44" width="900" height="1" fill="url(#goldLine)" opacity="0">
     <animate attributeName="opacity" values="0;0.8;0.4;0.8" dur="4s" repeatCount="indefinite"/>
   </rect>
-
-  <!-- BOTTOM EMERALD LINE - animated pulse -->
-  <rect x="0" y="254" width="900" height="1" fill="url(#emeraldLine)" opacity="0">
+  <rect x="0" y="274" width="900" height="1" fill="url(#emeraldLine)" opacity="0">
     <animate attributeName="opacity" values="0;0.7;0.3;0.7" dur="4s" begin="2s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- SPINNING DIAMOND top center -->
+  <!-- Spinning diamond -->
   <g transform="translate(450,32)">
     <polygon points="0,-10 8,0 0,10 -8,0" fill="none" stroke="#d4af37" stroke-width="1.2" filter="url(#softglow)">
       <animateTransform attributeName="transform" type="rotate" values="0;360" dur="8s" repeatCount="indefinite"/>
@@ -211,77 +178,81 @@
     </circle>
   </g>
 
-  <!-- Side diamonds pulsing -->
   <polygon points="131,150 136,155 131,160 126,155" fill="#d4af37" filter="url(#softglow)">
     <animate attributeName="opacity" values="0.6;0.1;0.6" dur="2.5s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="scale" values="1 1;1.4 1.4;1 1" additive="sum" dur="2.5s" repeatCount="indefinite"/>
   </polygon>
   <polygon points="769,150 774,155 769,160 764,155" fill="#10b981" filter="url(#softglow)">
     <animate attributeName="opacity" values="0.6;0.1;0.6" dur="2.5s" begin="1.25s" repeatCount="indefinite"/>
   </polygon>
 
-  <!-- Greeting - fade in -->
+  <!-- Eyebrow -->
   <text x="450" y="80" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#d4af37" letter-spacing="7" filter="url(#softglow)" opacity="0">
-    SOFTWARE ENGINEER &amp; DEVELOPER
-    <animate attributeName="opacity" values="0;0.7;0.3;0.7" dur="4s" repeatCount="indefinite"/>
+    SOFTWARE ENGINEER &amp; MOBILE DEVELOPER
+    <animate attributeName="opacity" values="0;0.75;0.35;0.75" dur="4s" repeatCount="indefinite"/>
   </text>
 
-  <!-- MAIN NAME with glow + shimmer overlay -->
+  <!-- Name -->
   <text x="450" y="158" text-anchor="middle" font-family="Georgia, 'Palatino Linotype', serif" font-size="60" font-weight="bold" fill="url(#nameGrad)" filter="url(#strongglow)" letter-spacing="1.5" opacity="0">
     Sebastian Pariachi
     <animate attributeName="opacity" values="0;1" dur="0.8s" fill="freeze" begin="0.3s"/>
   </text>
-  <!-- Shimmer overlay on name -->
-  <text x="450" y="158" text-anchor="middle" font-family="Georgia, 'Palatino Linotype', serif" font-size="60" font-weight="bold" fill="url(#shimmer)" letter-spacing="1.5" opacity="0.4"/>
+  <text x="450" y="158" text-anchor="middle" font-family="Georgia, 'Palatino Linotype', serif" font-size="60" font-weight="bold" fill="url(#shimmer)" letter-spacing="1.5"/>
 
-  <!-- Animated underline - draws left to right -->
   <rect x="450" y="168" width="0" height="1.5" fill="url(#goldLine)" rx="1" opacity="0.9">
     <animate attributeName="x" values="450;240" dur="1s" fill="freeze" begin="0.8s"/>
     <animate attributeName="width" values="0;420" dur="1s" fill="freeze" begin="0.8s"/>
     <animate attributeName="opacity" values="0.9;0.4;0.9" dur="3s" begin="1.8s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Role text - fade in delayed -->
-  <text x="450" y="197" text-anchor="middle" font-family="'Courier New', monospace" font-size="13.5" fill="#888888" letter-spacing="4" opacity="0">
-    Full Stack Developer  ·  Node.js  ·  React  ·  DevOps
+  <!-- Role -->
+  <text x="450" y="197" text-anchor="middle" font-family="'Courier New', monospace" font-size="13.5" fill="#888888" letter-spacing="3.5" opacity="0">
+    Full Stack  ·  Web &amp; Móvil  ·  DevOps
     <animate attributeName="opacity" values="0;0.85" dur="0.6s" fill="freeze" begin="1.2s"/>
   </text>
 
-  <!-- TECH PILLS - staggered fade in -->
+  <!-- Tech pills -->
   <g font-family="'Courier New', monospace" font-size="10.5">
     <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.4s"/>
-      <rect x="190" y="214" width="62" height="20" rx="10" fill="#d4af3720" stroke="#d4af37" stroke-width="0.8"/>
-      <text x="221" y="228" text-anchor="middle" fill="#d4af37">⚛ React</text>
+      <rect x="175" y="214" width="79" height="20" rx="10" fill="#d4af3720" stroke="#d4af37" stroke-width="0.8"/>
+      <text x="214.5" y="228" text-anchor="middle" fill="#d4af37">⚛ React</text>
     </g>
-    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.6s"/>
-      <rect x="261" y="214" width="70" height="20" rx="10" fill="#d4af3720" stroke="#d4af37" stroke-width="0.8"/>
-      <text x="296" y="228" text-anchor="middle" fill="#d4af37">▲ Node.js</text>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.55s"/>
+      <rect x="262" y="214" width="91" height="20" rx="10" fill="#d4af3720" stroke="#d4af37" stroke-width="0.8"/>
+      <text x="307.5" y="228" text-anchor="middle" fill="#d4af37">▲ Node.js</text>
     </g>
-    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.8s"/>
-      <rect x="340" y="214" width="64" height="20" rx="10" fill="#10b98120" stroke="#10b981" stroke-width="0.8"/>
-      <text x="372" y="228" text-anchor="middle" fill="#10b981">◈ MySQL</text>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.7s"/>
+      <rect x="361" y="214" width="85" height="20" rx="10" fill="#10b98120" stroke="#10b981" stroke-width="0.8"/>
+      <text x="403.5" y="228" text-anchor="middle" fill="#10b981">◆ Kotlin</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.85s"/>
+      <rect x="454" y="214" width="91" height="20" rx="10" fill="#10b98120" stroke="#10b981" stroke-width="0.8"/>
+      <text x="499.5" y="228" text-anchor="middle" fill="#10b981">◈ Flutter</text>
     </g>
     <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="2.0s"/>
-      <rect x="413" y="214" width="70" height="20" rx="10" fill="#10b98120" stroke="#10b981" stroke-width="0.8"/>
-      <text x="448" y="228" text-anchor="middle" fill="#10b981">🐍 Python</text>
+      <rect x="553" y="214" width="79" height="20" rx="10" fill="#88888820" stroke="#888888" stroke-width="0.8"/>
+      <text x="592.5" y="228" text-anchor="middle" fill="#aaaaaa">◉ MySQL</text>
     </g>
-    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="2.2s"/>
-      <rect x="492" y="214" width="76" height="20" rx="10" fill="#88888820" stroke="#888888" stroke-width="0.8"/>
-      <text x="530" y="228" text-anchor="middle" fill="#aaaaaa">⚡ REST API</text>
-    </g>
-    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="2.4s"/>
-      <rect x="577" y="214" width="56" height="20" rx="10" fill="#88888820" stroke="#888888" stroke-width="0.8"/>
-      <text x="605" y="228" text-anchor="middle" fill="#aaaaaa">🔐 JWT</text>
-    </g>
-    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="2.6s"/>
-      <rect x="642" y="214" width="60" height="20" rx="10" fill="#10b98115" stroke="#10b981" stroke-width="0.8"/>
-      <text x="672" y="228" text-anchor="middle" fill="#10b981">☁ Vercel</text>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="2.15s"/>
+      <rect x="640" y="214" width="85" height="20" rx="10" fill="#88888820" stroke="#888888" stroke-width="0.8"/>
+      <text x="682.5" y="228" text-anchor="middle" fill="#aaaaaa">⬢ Docker</text>
     </g>
   </g>
 
+  <!-- Status pill: open to internships -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" fill="freeze" begin="2.4s"/>
+    <rect x="260" y="248" width="380" height="26" rx="13" fill="#10b98112" stroke="#10b981" stroke-width="1"/>
+    <circle cx="278" cy="261" r="4" fill="#10b981" filter="url(#softglow)">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="4;5.2;4" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="294" y="265" font-family="'Courier New', monospace" font-size="11.5" fill="#10b981" letter-spacing="0.6">
+      Disponible para prácticas pre-profesionales
+    </text>
+  </g>
+
   <!-- Bottom info -->
-  <text x="450" y="268" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#444444" letter-spacing="2.5" opacity="0">
-    📍 Lima, Perú  ·  🎓 UPC — Ingeniería de Software  ·  🏆 Top 10%
-    <animate attributeName="opacity" values="0;0.8" dur="0.5s" fill="freeze" begin="2.7s"/>
+  <text x="450" y="296" text-anchor="middle" font-family="'Courier New', monospace" font-size="10.5" fill="#4a4a4a" letter-spacing="2" opacity="0">
+    Lima, Perú  ·  UPC — Ingeniería de Software (7.° ciclo)  ·  Décimo superior
+    <animate attributeName="opacity" values="0;0.85" dur="0.5s" fill="freeze" begin="2.7s"/>
   </text>
 </svg>
