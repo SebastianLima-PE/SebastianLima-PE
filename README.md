@@ -15,11 +15,11 @@
 <br/><br/>
 
 <!-- Navegación -->
-<a href="#sobre-mi"><img src="https://img.shields.io/badge/💡_Sobre_mí-0a192f?style=for-the-badge" /></a>
-<a href="#stack"><img src="https://img.shields.io/badge/🛠️_Stack-0a192f?style=for-the-badge" /></a>
-<a href="#proyectos"><img src="https://img.shields.io/badge/🚀_Proyectos-0a192f?style=for-the-badge" /></a>
-<a href="#roadmap"><img src="https://img.shields.io/badge/🗺️_Roadmap-0a192f?style=for-the-badge" /></a>
-<a href="#certificaciones"><img src="https://img.shields.io/badge/📜_Certificaciones-0a192f?style=for-the-badge" /></a>
+<a href="#-sobre-mí-"><img src="https://img.shields.io/badge/💡_Sobre_mí-0a192f?style=for-the-badge" /></a>
+<a href="#-tech-stack-"><img src="https://img.shields.io/badge/🛠️_Stack-0a192f?style=for-the-badge" /></a>
+<a href="#-proyectos-destacados-"><img src="https://img.shields.io/badge/🚀_Proyectos-0a192f?style=for-the-badge" /></a>
+<a href="#-roadmap-"><img src="https://img.shields.io/badge/🗺️_Roadmap-0a192f?style=for-the-badge" /></a>
+<a href="#-certificaciones-"><img src="https://img.shields.io/badge/📜_Certificaciones-0a192f?style=for-the-badge" /></a>
 
 <br/>
 
@@ -31,7 +31,6 @@
 
 ---
 
-<a name="sobre-mi"></a>
 <div align="center"><h3><code>{ Sobre Mí }</code></h3></div>
 
 ```typescript
@@ -73,7 +72,6 @@ const sebastian: Developer = {
 - 🚀 Automatizando **CI/CD con GitHub Actions** + deploy en **Cloudflare Pages** y **Vercel**
 - 🧭 Aplicando **DDD**, arquitectura por capas y **SCRUM**
 
-<a name="contacto"></a>
 ### 📬 Contáctame
 
 <a href="mailto:sebastianpariachi.l@gmail.com?subject=Oportunidad%20de%20pr%C3%A1cticas"><img src="https://img.shields.io/badge/Email-sebastianpariachi.l%40gmail.com-64ffda?style=flat-square&labelColor=0a192f" /></a>
@@ -82,9 +80,8 @@ const sebastian: Developer = {
 
 ---
 
-<a name="stack"></a>
 <div align="center">
-<h3><code>{ Tech Stack }</code> 🛠️</h3>
+<h3><code>{ Tech Stack }</code></h3>
 
 **📱 Móvil**
 
@@ -137,8 +134,7 @@ const sebastian: Developer = {
 
 ---
 
-<a name="proyectos"></a>
-<div align="center"><h3><code>{ Proyectos Destacados }</code> 🚀</h3></div>
+<div align="center"><h3><code>{ Proyectos Destacados }</code></h3></div>
 
 ### 🩺 Ferova — Ecosistema móvil contra la anemia infantil
 
@@ -191,10 +187,9 @@ const sebastian: Developer = {
 
 ---
 
-<a name="roadmap"></a>
 <div align="center">
 
-<h3><code>{ Roadmap }</code> 🗺️</h3>
+<h3><code>{ Roadmap }</code></h3>
 
 <img src="./assets/roadmap.svg" width="100%" alt="Roadmap: 2023 ingreso a UPC · 2025 décimo superior · Ene 2026 FinTú & Co. · Mar 2026 Ferova con MINSA · Feb-Jul 2026 cuatro certificaciones · 2027 prácticas pre-profesionales"/>
 
@@ -202,9 +197,8 @@ const sebastian: Developer = {
 
 ---
 
-<a name="certificaciones"></a>
 <div align="center">
-<h3><code>{ Certificaciones }</code> 📜</h3>
+<h3><code>{ Certificaciones }</code></h3>
 
 | 📜 Certificación | 🏛️ Institución | 📅 Fecha |
 |---|---|---|
