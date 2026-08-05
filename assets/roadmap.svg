@@ -51,7 +51,7 @@
     <animate attributeName="opacity" values="0;0.35;0.35;0" dur="6s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- ============ MILESTONE 1 — 2023 (above) ============ -->
+  <!-- ============ 1 — 2023 (above) ============ -->
   <line x1="90" y1="140" x2="90" y2="192" stroke="#10b981" stroke-width="1" stroke-dasharray="3 3" opacity="0.45"/>
   <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="0.1s"/>
     <rect x="21" y="72" width="138" height="68" rx="8" fill="#101014" stroke="#10b981" stroke-width="1" stroke-opacity="0.45"/>
@@ -65,87 +65,73 @@
   </circle>
   <circle cx="90" cy="200" r="3" fill="#0a0a0a"/>
 
-  <!-- ============ MILESTONE 2 — 2025 (below) ============ -->
-  <line x1="234" y1="208" x2="234" y2="260" stroke="#10b981" stroke-width="1" stroke-dasharray="3 3" opacity="0.45"/>
-  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="0.35s"/>
-    <rect x="165" y="260" width="138" height="68" rx="8" fill="#101014" stroke="#10b981" stroke-width="1" stroke-opacity="0.45"/>
-    <rect x="165" y="260" width="138" height="2.5" rx="1.2" fill="#10b981" opacity="0.8"/>
-    <text x="177" y="282" font-family="'Courier New', monospace" font-size="9" fill="#10b981" letter-spacing="1.8">2025</text>
-    <text x="177" y="301" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f0f0e8">Décimo superior</text>
-    <text x="177" y="317" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#7a7a72">Top 10% de la carrera</text>
+  <!-- ============ 2 — Ene 2026 · FinTú (below) ============ -->
+  <line x1="270" y1="208" x2="270" y2="260" stroke="#10b981" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="0.4s"/>
+    <rect x="201" y="260" width="138" height="68" rx="8" fill="#101014" stroke="#10b981" stroke-width="1" stroke-opacity="0.6"/>
+    <rect x="201" y="260" width="138" height="2.5" rx="1.2" fill="#10b981"/>
+    <text x="213" y="282" font-family="'Courier New', monospace" font-size="9" fill="#10b981" letter-spacing="1.8">ENE 2026</text>
+    <text x="213" y="301" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f0f0e8">FinTú &amp; Co.</text>
+    <text x="213" y="317" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#7a7a72">SaaS financiero · en vivo</text>
   </g>
-  <circle cx="234" cy="200" r="7" fill="#10b981" filter="url(#rsoft)" opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.35s"/>
+  <circle cx="270" cy="200" r="7" fill="#10b981" filter="url(#rsoft)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.4s"/>
   </circle>
-  <circle cx="234" cy="200" r="3" fill="#0a0a0a"/>
+  <circle cx="270" cy="200" r="3" fill="#0a0a0a"/>
 
-  <!-- ============ MILESTONE 3 — Ene 2026 (above) ============ -->
-  <line x1="378" y1="140" x2="378" y2="192" stroke="#10b981" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
-  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="0.6s"/>
-    <rect x="309" y="72" width="138" height="68" rx="8" fill="#101014" stroke="#10b981" stroke-width="1" stroke-opacity="0.6"/>
-    <rect x="309" y="72" width="138" height="2.5" rx="1.2" fill="#10b981"/>
-    <text x="321" y="94" font-family="'Courier New', monospace" font-size="9" fill="#10b981" letter-spacing="1.8">ENE 2026</text>
-    <text x="321" y="113" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f0f0e8">FinTú &amp; Co.</text>
-    <text x="321" y="129" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#7a7a72">SaaS financiero · en vivo</text>
+  <!-- ============ 3 — Mar 2026 · Ferova (above) ============ -->
+  <line x1="450" y1="140" x2="450" y2="192" stroke="#d4af37" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="0.7s"/>
+    <rect x="381" y="72" width="138" height="68" rx="8" fill="#101014" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6"/>
+    <rect x="381" y="72" width="138" height="2.5" rx="1.2" fill="#d4af37"/>
+    <text x="393" y="94" font-family="'Courier New', monospace" font-size="9" fill="#d4af37" letter-spacing="1.8">MAR 2026</text>
+    <text x="393" y="113" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f0f0e8">Ferova · MINSA</text>
+    <text x="393" y="129" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#7a7a72">2 apps · Kotlin + Flutter</text>
   </g>
-  <circle cx="378" cy="200" r="7" fill="#10b981" filter="url(#rsoft)" opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.6s"/>
+  <circle cx="450" cy="200" r="7" fill="#d4af37" filter="url(#rsoft)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.7s"/>
   </circle>
-  <circle cx="378" cy="200" r="3" fill="#0a0a0a"/>
+  <circle cx="450" cy="200" r="3" fill="#0a0a0a"/>
 
-  <!-- ============ MILESTONE 4 — Mar 2026 (below) ============ -->
-  <line x1="522" y1="208" x2="522" y2="260" stroke="#d4af37" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
-  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="0.85s"/>
-    <rect x="453" y="260" width="138" height="68" rx="8" fill="#101014" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6"/>
-    <rect x="453" y="260" width="138" height="2.5" rx="1.2" fill="#d4af37"/>
-    <text x="465" y="282" font-family="'Courier New', monospace" font-size="9" fill="#d4af37" letter-spacing="1.8">MAR 2026</text>
-    <text x="465" y="301" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f0f0e8">Ferova · MINSA</text>
-    <text x="465" y="317" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#7a7a72">2 apps · Kotlin + Flutter</text>
+  <!-- ============ 4 — Feb–Jul 2026 · certificaciones (below) ============ -->
+  <line x1="630" y1="208" x2="630" y2="260" stroke="#d4af37" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="1s"/>
+    <rect x="561" y="260" width="138" height="68" rx="8" fill="#101014" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6"/>
+    <rect x="561" y="260" width="138" height="2.5" rx="1.2" fill="#d4af37"/>
+    <text x="573" y="282" font-family="'Courier New', monospace" font-size="9" fill="#d4af37" letter-spacing="1.8">FEB–JUL 2026</text>
+    <text x="573" y="301" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f0f0e8">4 Certificaciones</text>
+    <text x="573" y="317" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#7a7a72">Google · AWS · Michigan</text>
   </g>
-  <circle cx="522" cy="200" r="7" fill="#d4af37" filter="url(#rsoft)" opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.85s"/>
+  <circle cx="630" cy="200" r="7" fill="#d4af37" filter="url(#rsoft)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1s"/>
   </circle>
-  <circle cx="522" cy="200" r="3" fill="#0a0a0a"/>
+  <circle cx="630" cy="200" r="3" fill="#0a0a0a"/>
 
-  <!-- ============ MILESTONE 5 — 2026 certs (above) ============ -->
-  <line x1="666" y1="140" x2="666" y2="192" stroke="#d4af37" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
-  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="1.1s"/>
-    <rect x="597" y="72" width="138" height="68" rx="8" fill="#101014" stroke="#d4af37" stroke-width="1" stroke-opacity="0.6"/>
-    <rect x="597" y="72" width="138" height="2.5" rx="1.2" fill="#d4af37"/>
-    <text x="609" y="94" font-family="'Courier New', monospace" font-size="9" fill="#d4af37" letter-spacing="1.8">FEB–JUL 2026</text>
-    <text x="609" y="113" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f0f0e8">4 Certificaciones</text>
-    <text x="609" y="129" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#7a7a72">Google · AWS · Michigan</text>
-  </g>
-  <circle cx="666" cy="200" r="7" fill="#d4af37" filter="url(#rsoft)" opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.1s"/>
-  </circle>
-  <circle cx="666" cy="200" r="3" fill="#0a0a0a"/>
-
-  <!-- "estás aquí" marker between 5 and 6 -->
+  <!-- "HOY" marker, below the track -->
   <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" fill="freeze" begin="1.5s"/>
-    <line x1="738" y1="200" x2="738" y2="176" stroke="#f0f0e8" stroke-width="1" opacity="0.35"/>
-    <text x="738" y="168" text-anchor="middle" font-family="'Courier New', monospace" font-size="8.5" fill="#f0f0e8" opacity="0.65" letter-spacing="1.2">HOY</text>
-    <circle cx="738" cy="200" r="3.5" fill="#f0f0e8" filter="url(#rsoft)">
+    <line x1="720" y1="200" x2="720" y2="224" stroke="#f0f0e8" stroke-width="1" opacity="0.35"/>
+    <text x="720" y="238" text-anchor="middle" font-family="'Courier New', monospace" font-size="8.5" fill="#f0f0e8" opacity="0.65" letter-spacing="1.2">HOY</text>
+    <circle cx="720" cy="200" r="3.5" fill="#f0f0e8" filter="url(#rsoft)">
       <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <!-- ============ MILESTONE 6 — 2027 target (below) ============ -->
-  <line x1="810" y1="208" x2="810" y2="260" stroke="#d4af37" stroke-width="1" stroke-dasharray="3 3" opacity="0.65"/>
-  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" fill="freeze" begin="1.35s"/>
-    <rect x="741" y="260" width="138" height="68" rx="8" fill="#1a1508" stroke="#d4af37" stroke-width="1.4">
+  <!-- ============ 5 — 2027 · objetivo (above) ============ -->
+  <line x1="810" y1="140" x2="810" y2="190" stroke="#d4af37" stroke-width="1" stroke-dasharray="3 3" opacity="0.65"/>
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" fill="freeze" begin="1.3s"/>
+    <rect x="741" y="72" width="138" height="68" rx="8" fill="#1a1508" stroke="#d4af37" stroke-width="1.4">
       <animate attributeName="stroke-opacity" values="1;0.45;1" dur="2.6s" repeatCount="indefinite"/>
     </rect>
-    <rect x="741" y="260" width="138" height="2.5" rx="1.2" fill="#d4af37"/>
-    <text x="753" y="282" font-family="'Courier New', monospace" font-size="9" fill="#d4af37" letter-spacing="1.8">2027 — NEXT</text>
-    <text x="753" y="301" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f5d97a">Prácticas pre-prof.</text>
-    <text x="753" y="317" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#9a8a5a">¿Tu equipo? Hablemos</text>
+    <rect x="741" y="72" width="138" height="2.5" rx="1.2" fill="#d4af37"/>
+    <text x="753" y="94" font-family="'Courier New', monospace" font-size="9" fill="#d4af37" letter-spacing="1.8">2027 — NEXT</text>
+    <text x="753" y="113" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f5d97a">Prácticas pre-prof.</text>
+    <text x="753" y="129" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#9a8a5a">¿Tu equipo? Hablemos</text>
   </g>
   <circle cx="810" cy="200" r="10" fill="none" stroke="#d4af37" stroke-width="1.5" opacity="0">
-    <animate attributeName="opacity" values="0;0.9" dur="0.4s" fill="freeze" begin="1.35s"/>
-    <animate attributeName="r" values="8;14;8" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.9" dur="0.4s" fill="freeze" begin="1.3s"/>
+    <animate attributeName="r" values="8;14;8" dur="2.6s" begin="1.7s" repeatCount="indefinite"/>
   </circle>
   <circle cx="810" cy="200" r="6" fill="#d4af37" filter="url(#rstrong)" opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.35s"/>
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.3s"/>
   </circle>
 </svg>
