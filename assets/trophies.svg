@@ -1,0 +1,128 @@
+<svg width="470" height="270" viewBox="0 0 470 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Trofeos de GitHub de SebastianLima-PE">
+  <style>
+    .t{font:700 9px 'Segoe UI',Ubuntu,sans-serif;letter-spacing:.8px}
+    .r{font:800 10px 'Segoe UI',Ubuntu,sans-serif}
+    .v{font:700 18px 'Segoe UI',Ubuntu,sans-serif}
+    .u{font:400 10px 'Segoe UI',Ubuntu,sans-serif}
+  </style>
+  <g transform="translate(0 0)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.00s" dur="0.5s" fill="freeze"/>
+    <rect x="0.5" y="0.5" width="109" height="129" rx="10" fill="#111" stroke="#262626"/>
+    <text x="55" y="20" text-anchor="middle" class="t" fill="#34d399">COMMITS</text>
+    <g transform="translate(55 52)" fill="#34d399" opacity="1">
+      <circle r="24" fill="#34d399" opacity="0.12"/>
+      <path d="M-13 -14 H13 V-4 C13 6 6 11 0 11 C-6 11 -13 6 -13 -4 Z"/>
+      <path d="M-13 -11 H-19 C-19 -2 -16 1 -12 1 M13 -11 H19 C19 -2 16 1 12 1" fill="none" stroke="#34d399" stroke-width="2.5"/>
+      <rect x="-3" y="10" width="6" height="6"/>
+      <rect x="-10" y="16" width="20" height="5" rx="1.5"/>
+      <text y="1" text-anchor="middle" class="r" fill="#0a0a0a">A</text>
+    </g>
+    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">367</text>
+    <text x="55" y="116" text-anchor="middle" class="u" fill="#8a8a8a">commits</text>
+  </g>
+  <g transform="translate(120 0)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.12s" dur="0.5s" fill="freeze"/>
+    <rect x="0.5" y="0.5" width="109" height="129" rx="10" fill="#111" stroke="#262626"/>
+    <text x="55" y="20" text-anchor="middle" class="t" fill="#34d399">PULL REQUESTS</text>
+    <g transform="translate(55 52)" fill="#34d399" opacity="1">
+      <circle r="24" fill="#34d399" opacity="0.12"/>
+      <path d="M-13 -14 H13 V-4 C13 6 6 11 0 11 C-6 11 -13 6 -13 -4 Z"/>
+      <path d="M-13 -11 H-19 C-19 -2 -16 1 -12 1 M13 -11 H19 C19 -2 16 1 12 1" fill="none" stroke="#34d399" stroke-width="2.5"/>
+      <rect x="-3" y="10" width="6" height="6"/>
+      <rect x="-10" y="16" width="20" height="5" rx="1.5"/>
+      <text y="1" text-anchor="middle" class="r" fill="#0a0a0a">A</text>
+    </g>
+    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">12</text>
+    <text x="55" y="116" text-anchor="middle" class="u" fill="#8a8a8a">PRs</text>
+  </g>
+  <g transform="translate(240 0)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.24s" dur="0.5s" fill="freeze"/>
+    <rect x="0.5" y="0.5" width="109" height="129" rx="10" fill="#111" stroke="#262626"/>
+    <text x="55" y="20" text-anchor="middle" class="t" fill="#10b981">LENGUAJES</text>
+    <g transform="translate(55 52)" fill="#10b981" opacity="1">
+      <circle r="24" fill="#10b981" opacity="0.12"/>
+      <path d="M-13 -14 H13 V-4 C13 6 6 11 0 11 C-6 11 -13 6 -13 -4 Z"/>
+      <path d="M-13 -11 H-19 C-19 -2 -16 1 -12 1 M13 -11 H19 C19 -2 16 1 12 1" fill="none" stroke="#10b981" stroke-width="2.5"/>
+      <rect x="-3" y="10" width="6" height="6"/>
+      <rect x="-10" y="16" width="20" height="5" rx="1.5"/>
+      <text y="1" text-anchor="middle" class="r" fill="#0a0a0a">B</text>
+    </g>
+    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">4</text>
+    <text x="55" y="116" text-anchor="middle" class="u" fill="#8a8a8a">lenguajes</text>
+  </g>
+  <g transform="translate(360 0)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.36s" dur="0.5s" fill="freeze"/>
+    <rect x="0.5" y="0.5" width="109" height="129" rx="10" fill="#111" stroke="#262626"/>
+    <text x="55" y="20" text-anchor="middle" class="t" fill="#10b981">REPOSITORIOS</text>
+    <g transform="translate(55 52)" fill="#10b981" opacity="1">
+      <circle r="24" fill="#10b981" opacity="0.12"/>
+      <path d="M-13 -14 H13 V-4 C13 6 6 11 0 11 C-6 11 -13 6 -13 -4 Z"/>
+      <path d="M-13 -11 H-19 C-19 -2 -16 1 -12 1 M13 -11 H19 C19 -2 16 1 12 1" fill="none" stroke="#10b981" stroke-width="2.5"/>
+      <rect x="-3" y="10" width="6" height="6"/>
+      <rect x="-10" y="16" width="20" height="5" rx="1.5"/>
+      <text y="1" text-anchor="middle" class="r" fill="#0a0a0a">B</text>
+    </g>
+    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">4</text>
+    <text x="55" y="116" text-anchor="middle" class="u" fill="#8a8a8a">repos</text>
+  </g>
+  <g transform="translate(0 140)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.48s" dur="0.5s" fill="freeze"/>
+    <rect x="0.5" y="0.5" width="109" height="129" rx="10" fill="#111" stroke="#262626"/>
+    <text x="55" y="20" text-anchor="middle" class="t" fill="#d4af37">COLABORACIÓN</text>
+    <g transform="translate(55 52)" fill="#d4af37" opacity="1">
+      <circle r="24" fill="#d4af37" opacity="0.12"/>
+      <path d="M-13 -14 H13 V-4 C13 6 6 11 0 11 C-6 11 -13 6 -13 -4 Z"/>
+      <path d="M-13 -11 H-19 C-19 -2 -16 1 -12 1 M13 -11 H19 C19 -2 16 1 12 1" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+      <rect x="-3" y="10" width="6" height="6"/>
+      <rect x="-10" y="16" width="20" height="5" rx="1.5"/>
+      <text y="1" text-anchor="middle" class="r" fill="#0a0a0a">S</text>
+    </g>
+    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">11</text>
+    <text x="55" y="116" text-anchor="middle" class="u" fill="#8a8a8a">repos</text>
+  </g>
+  <g transform="translate(120 140)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.5s" fill="freeze"/>
+    <rect x="0.5" y="0.5" width="109" height="129" rx="10" fill="#111" stroke="#262626"/>
+    <text x="55" y="20" text-anchor="middle" class="t" fill="#34d399">DÍAS ACTIVOS</text>
+    <g transform="translate(55 52)" fill="#34d399" opacity="1">
+      <circle r="24" fill="#34d399" opacity="0.12"/>
+      <path d="M-13 -14 H13 V-4 C13 6 6 11 0 11 C-6 11 -13 6 -13 -4 Z"/>
+      <path d="M-13 -11 H-19 C-19 -2 -16 1 -12 1 M13 -11 H19 C19 -2 16 1 12 1" fill="none" stroke="#34d399" stroke-width="2.5"/>
+      <rect x="-3" y="10" width="6" height="6"/>
+      <rect x="-10" y="16" width="20" height="5" rx="1.5"/>
+      <text y="1" text-anchor="middle" class="r" fill="#0a0a0a">A</text>
+    </g>
+    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">70</text>
+    <text x="55" y="116" text-anchor="middle" class="u" fill="#8a8a8a">en el último año</text>
+  </g>
+  <g transform="translate(240 140)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.72s" dur="0.5s" fill="freeze"/>
+    <rect x="0.5" y="0.5" width="109" height="129" rx="10" fill="#111" stroke="#262626"/>
+    <text x="55" y="20" text-anchor="middle" class="t" fill="#34d399">RACHA MÁXIMA</text>
+    <g transform="translate(55 52)" fill="#34d399" opacity="1">
+      <circle r="24" fill="#34d399" opacity="0.12"/>
+      <path d="M-13 -14 H13 V-4 C13 6 6 11 0 11 C-6 11 -13 6 -13 -4 Z"/>
+      <path d="M-13 -11 H-19 C-19 -2 -16 1 -12 1 M13 -11 H19 C19 -2 16 1 12 1" fill="none" stroke="#34d399" stroke-width="2.5"/>
+      <rect x="-3" y="10" width="6" height="6"/>
+      <rect x="-10" y="16" width="20" height="5" rx="1.5"/>
+      <text y="1" text-anchor="middle" class="r" fill="#0a0a0a">A</text>
+    </g>
+    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">8</text>
+    <text x="55" y="116" text-anchor="middle" class="u" fill="#8a8a8a">días seguidos</text>
+  </g>
+  <g transform="translate(360 140)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.84s" dur="0.5s" fill="freeze"/>
+    <rect x="0.5" y="0.5" width="109" height="129" rx="10" fill="#111" stroke="#262626"/>
+    <text x="55" y="20" text-anchor="middle" class="t" fill="#34d399">EXPERIENCIA</text>
+    <g transform="translate(55 52)" fill="#34d399" opacity="1">
+      <circle r="24" fill="#34d399" opacity="0.12"/>
+      <path d="M-13 -14 H13 V-4 C13 6 6 11 0 11 C-6 11 -13 6 -13 -4 Z"/>
+      <path d="M-13 -11 H-19 C-19 -2 -16 1 -12 1 M13 -11 H19 C19 -2 16 1 12 1" fill="none" stroke="#34d399" stroke-width="2.5"/>
+      <rect x="-3" y="10" width="6" height="6"/>
+      <rect x="-10" y="16" width="20" height="5" rx="1.5"/>
+      <text y="1" text-anchor="middle" class="r" fill="#0a0a0a">A</text>
+    </g>
+    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">15</text>
+    <text x="55" y="116" text-anchor="middle" class="u" fill="#8a8a8a">meses</text>
+  </g>
+</svg>
