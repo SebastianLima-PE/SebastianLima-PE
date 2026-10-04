@@ -2,8 +2,6 @@
 
 <img src="./assets/banner.svg" width="100%" alt="Sebastian Pariachi — Full Stack & Mobile Developer"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=800&color=10B981&center=true&vCenter=true&width=700&height=40&lines=Full+Stack+Developer+%7C+Web+%2B+M%C3%B3vil;React+%C2%B7+Node.js+%C2%B7+Kotlin+%C2%B7+Flutter;Top+10%25+UPC+%7C+Busco+Pr%C3%A1cticas+Pre-profesionales" alt="Typing SVG" />
-
 </div>
 
 ## 🎯 Sobre mí
