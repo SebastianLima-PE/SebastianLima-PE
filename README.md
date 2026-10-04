@@ -98,13 +98,15 @@ const sebastian = {
 <td width="50%" valign="top">
 
 ### 🩺 Ferova
-<sub>Mar – Jul 2026 · Dev Móvil Full Stack</sub>
+<sub>Mar – Jul 2026 · Proyecto en equipo (5 devs) · Desarrollo móvil</sub>
 
 Dos **apps móviles conectadas** contra la anemia infantil, pensadas para los establecimientos del **MINSA** (marca *Sanuvi*).
 
-- 📱 **Ferova Family** (Kotlin): dosis diarias, recordatorios, diario nutricional y **gamificación**
-- 🏥 **Ferova Clinic** (Flutter): **semáforo de riesgo** y **score de abandono**
-- 🔄 Backend TypeScript + API REST en **Swagger**
+**Mi aporte:**
+- 🚀 Inicié **Ferova Family** (Kotlin) y armé sus módulos base
+- 🗺️ Mapa de centros de salud con **OSMDroid**
+- 🏅 Logros y gamificación, diario nutricional con **absorción de hierro**
+- 🏥 En **Ferova Clinic** (Flutter): panel de administración con analítica, vista de riesgo y citas en tiempo casi real
 
 <a href="https://sanuvi-minsa.github.io/ferova-landing-page/"><img src="https://img.shields.io/badge/Ver_landing-10b981?style=for-the-badge&labelColor=0a0a0a"/></a>
 
@@ -112,14 +114,14 @@ Dos **apps móviles conectadas** contra la anemia infantil, pensadas para los es
 <td width="50%" valign="top">
 
 ### 💳 FinTú & Co.
-<sub>Ene – Jul 2026 · En producción</sub>
+<sub>Ene – Jul 2026 · Proyecto personal · Frontend en vivo</sub>
 
 **SaaS** para gestionar y analizar tarjetas de crédito en el **mercado peruano**, de punta a punta.
 
-- 🛠️ API REST con Node.js + Express + MySQL
+- 🛠️ API REST con Node.js + Express + MySQL, arquitectura **DDD** por módulos
 - 🔐 **JWT** + bcrypt, datos financieros protegidos
-- 💰 Suscripciones con **PayPal**
-- 🚀 **CI/CD** con GitHub Actions → Cloudflare Pages
+- 💰 Pago único con **PayPal**, verificado en el backend
+- ✅ **CI** con GitHub Actions (29 tests) + deploy en Cloudflare Pages
 
 <a href="https://fintu-co.pages.dev/"><img src="https://img.shields.io/badge/Ver_app-d4af37?style=for-the-badge&labelColor=0a0a0a"/></a>
 
