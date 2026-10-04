@@ -50,10 +50,6 @@ const sebastian = {
 </tr>
 </table>
 
-<div align="center">
-<img src="./assets/highlights.svg" width="100%" alt="Highlights: 3 apps en producción · Top 10% décimo superior · 4 certificaciones · 10+ lenguajes y frameworks · 2 APIs REST documentadas · CI/CD automatizado"/>
-</div>
-
 ## 📫 Conecta conmigo
 
 <div align="center">
