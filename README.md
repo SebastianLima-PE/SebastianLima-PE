@@ -10,31 +10,31 @@
 
 <table>
 <tr>
-<td width="58%" valign="top">
+<td width="55%" valign="top">
 
 ```javascript
 const sebastian = {
-  role:     "Ing. de Software @ UPC (7.° ciclo)",
-  location: "Lima, Perú 🇵🇪",
-  ranking:  "Décimo superior (Top 10%)",
-  objetivo: "Prácticas pre-profesionales",
+  role:     "Ing. de Software @ UPC",
+  ciclo:    "7.° ciclo · Top 10%",
+  location: "Lima, Perú",
+  busca:    "Prácticas pre-profesionales",
 
   building: [
-    "Ferova — apps contra la anemia (MINSA)",
-    "FinTú & Co. — SaaS de finanzas",
+    "Ferova (MINSA)",
+    "FinTú & Co. (SaaS)",
   ],
 
   learning: [
-    "Machine Learning en AWS",
-    "Swift / iOS nativo",
+    "Machine Learning (AWS)",
+    "Swift / iOS",
     "System Design",
   ],
 
   tech: {
-    frontend: ["React", "Next.js", "TypeScript", "Tailwind"],
+    frontend: ["React", "Next.js", "TS"],
     mobile:   ["Kotlin", "Flutter", "Swift"],
-    backend:  ["Node.js", "Express", "Spring Boot"],
-    database: ["MySQL", "MongoDB", "SQL Server"],
+    backend:  ["Node.js", "Express", "Spring"],
+    database: ["MySQL", "MongoDB"],
   },
 };
 ```
@@ -44,9 +44,9 @@ const sebastian = {
 > <sub>— John Johnson</sub>
 
 </td>
-<td width="42%" valign="top" align="center">
+<td width="45%" valign="middle" align="center">
 
-<img src="./assets/workspace.svg" width="100%" alt="Ilustración: desarrollador programando de noche"/>
+<img src="./assets/workspace.svg" width="360" alt="Ilustración: desarrollador programando de noche"/>
 
 </td>
 </tr>
