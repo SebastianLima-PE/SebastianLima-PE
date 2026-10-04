@@ -1,0 +1,181 @@
+<svg width="440" height="460" viewBox="0 0 440 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración: desarrollador programando de noche frente a una ventana con persianas y la ciudad de Lima">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="60%" stop-color="#1a1530"/>
+      <stop offset="100%" stop-color="#3a2a2a"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <radialGradient id="screenGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lampGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2118"/>
+      <stop offset="100%" stop-color="#16110c"/>
+    </linearGradient>
+    <clipPath id="win"><rect x="40" y="40" width="250" height="250" rx="4"/></clipPath>
+    <clipPath id="card"><rect x="0" y="0" width="440" height="460" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <!-- Pared -->
+    <rect width="440" height="460" fill="url(#wall)"/>
+
+    <!-- Ventana: cielo + ciudad -->
+    <g clip-path="url(#win)">
+      <rect x="40" y="40" width="250" height="250" fill="url(#sky)"/>
+      <circle cx="235" cy="85" r="16" fill="#f5f5f0" opacity="0.9"/>
+      <circle cx="242" cy="80" r="15" fill="#151226"/>
+      <g fill="#f5f5f0">
+        <circle cx="70" cy="70" r="1"><animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/></circle>
+        <circle cx="120" cy="55" r="1.2"/>
+        <circle cx="180" cy="95" r="0.9"><animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/></circle>
+        <circle cx="95" cy="110" r="0.8"/>
+        <circle cx="270" cy="130" r="1"><animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/></circle>
+      </g>
+      <!-- Skyline -->
+      <g fill="#0c0c14">
+        <rect x="40" y="200" width="30" height="90"/>
+        <rect x="68" y="175" width="24" height="115"/>
+        <rect x="90" y="215" width="36" height="75"/>
+        <rect x="124" y="160" width="20" height="130"/>
+        <rect x="142" y="190" width="40" height="100"/>
+        <rect x="180" y="150" width="26" height="140"/>
+        <rect x="204" y="205" width="34" height="85"/>
+        <rect x="236" y="180" width="22" height="110"/>
+        <rect x="256" y="210" width="34" height="80"/>
+      </g>
+      <g fill="#d4af37" opacity="0.8">
+        <rect x="74" y="185" width="3" height="4"/><rect x="82" y="200" width="3" height="4"/>
+        <rect x="128" y="172" width="3" height="4"/><rect x="134" y="190" width="3" height="4"/>
+        <rect x="150" y="200" width="3" height="4"/><rect x="165" y="215" width="3" height="4"/>
+        <rect x="186" y="162" width="3" height="4"><animate attributeName="opacity" values="1;0;1" dur="5s" repeatCount="indefinite"/></rect>
+        <rect x="196" y="180" width="3" height="4"/><rect x="212" y="218" width="3" height="4"/>
+        <rect x="242" y="192" width="3" height="4"/><rect x="262" y="222" width="3" height="4"/>
+      </g>
+      <g fill="#10b981" opacity="0.7">
+        <rect x="100" y="228" width="3" height="4"/><rect x="190" y="200" width="3" height="4"/>
+        <rect x="226" y="235" width="3" height="4"><animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/></rect>
+      </g>
+      <!-- Persianas -->
+      <g fill="#1d1d1d" opacity="0.92">
+        <rect x="40" y="40" width="250" height="7"/><rect x="40" y="55" width="250" height="7"/>
+        <rect x="40" y="70" width="250" height="7"/><rect x="40" y="85" width="250" height="7"/>
+        <rect x="40" y="100" width="250" height="7"/><rect x="40" y="115" width="250" height="7"/>
+        <rect x="40" y="130" width="250" height="7"/>
+      </g>
+      <g fill="#1d1d1d" opacity="0.55">
+        <rect x="40" y="145" width="250" height="5"/><rect x="40" y="158" width="250" height="5"/>
+        <rect x="40" y="171" width="250" height="5"/>
+      </g>
+    </g>
+    <rect x="40" y="40" width="250" height="250" rx="4" fill="none" stroke="#262626" stroke-width="6"/>
+    <line x1="165" y1="40" x2="165" y2="290" stroke="#262626" stroke-width="4"/>
+    <!-- Cordón de la persiana -->
+    <line x1="280" y1="40" x2="280" y2="200" stroke="#3a3a3a" stroke-width="1.5"/>
+    <circle cx="280" cy="203" r="3" fill="#3a3a3a"/>
+
+    <!-- Estante con libros -->
+    <rect x="315" y="110" width="105" height="5" fill="#2a2118"/>
+    <rect x="320" y="78" width="9" height="32" fill="#10b981" opacity="0.8"/>
+    <rect x="331" y="72" width="8" height="38" fill="#d4af37" opacity="0.8"/>
+    <rect x="341" y="82" width="10" height="28" fill="#3a3a3a"/>
+    <rect x="353" y="86" width="22" height="9" transform="rotate(-18 364 90)" fill="#5a4a3a"/>
+    <!-- Planta en el estante -->
+    <rect x="392" y="96" width="16" height="14" rx="2" fill="#5a4a3a"/>
+    <path d="M400 96 C392 80 384 82 382 74 M400 96 C402 78 410 76 412 66 M400 96 C408 86 418 88 420 80" stroke="#10b981" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <!-- Halos de luz -->
+    <ellipse cx="300" cy="300" rx="150" ry="110" fill="url(#screenGlow)">
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="395" cy="300" r="70" fill="url(#lampGlow)"/>
+
+    <!-- Escritorio -->
+    <rect x="0" y="360" width="440" height="100" fill="url(#desk)"/>
+    <rect x="0" y="356" width="440" height="6" fill="#3a2e22"/>
+
+    <!-- Monitor -->
+    <rect x="215" y="230" width="170" height="110" rx="6" fill="#111"/>
+    <rect x="222" y="237" width="156" height="96" rx="3" fill="#0a0f0d"/>
+    <rect x="290" y="340" width="12" height="14" fill="#1a1a1a"/>
+    <rect x="272" y="352" width="48" height="5" rx="2" fill="#1a1a1a"/>
+    <!-- Código en pantalla -->
+    <g font-family="Fira Code, monospace" font-size="7">
+      <rect x="230" y="245" width="30" height="4" rx="2" fill="#d4af37"/>
+      <rect x="264" y="245" width="50" height="4" rx="2" fill="#f5f5f0" opacity="0.5"/>
+      <rect x="238" y="255" width="40" height="4" rx="2" fill="#10b981"/>
+      <rect x="282" y="255" width="60" height="4" rx="2" fill="#f5f5f0" opacity="0.35"/>
+      <rect x="238" y="265" width="24" height="4" rx="2" fill="#7F52FF"/>
+      <rect x="266" y="265" width="44" height="4" rx="2" fill="#10b981" opacity="0.7"/>
+      <rect x="246" y="275" width="56" height="4" rx="2" fill="#f5f5f0" opacity="0.35"/>
+      <rect x="246" y="285" width="34" height="4" rx="2" fill="#61DAFB" opacity="0.8"/>
+      <rect x="284" y="285" width="28" height="4" rx="2" fill="#d4af37" opacity="0.7"/>
+      <rect x="238" y="295" width="18" height="4" rx="2" fill="#10b981"/>
+      <rect x="230" y="305" width="10" height="4" rx="2" fill="#d4af37"/>
+      <rect x="244" y="316" width="5" height="7" fill="#10b981">
+        <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Lámpara -->
+    <path d="M408 352 L408 300 L380 282" stroke="#2a2a2a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M366 272 L396 272 L388 290 L374 290 Z" fill="#2a2a2a" transform="rotate(-25 381 281)"/>
+    <ellipse cx="408" cy="354" rx="14" ry="4" fill="#2a2a2a"/>
+
+    <!-- Taza de café con vapor -->
+    <rect x="160" y="336" width="20" height="20" rx="3" fill="#d4af37" opacity="0.85"/>
+    <path d="M180 341 q8 0 8 6 q0 6 -8 6" stroke="#d4af37" stroke-width="2.5" fill="none" opacity="0.85"/>
+    <path d="M166 330 q-4 -6 0 -12 q4 -6 0 -12" stroke="#f5f5f0" stroke-width="1.5" fill="none" opacity="0.4">
+      <animate attributeName="opacity" values="0;0.5;0" dur="3s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 4;0 -4" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M174 330 q-4 -6 0 -12 q4 -6 0 -12" stroke="#f5f5f0" stroke-width="1.5" fill="none" opacity="0.4">
+      <animate attributeName="opacity" values="0;0.5;0" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 4;0 -4" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Persona de espaldas -->
+    <g>
+      <!-- silla -->
+      <rect x="215" y="350" width="110" height="110" rx="18" fill="#161616"/>
+      <!-- torso -->
+      <path d="M215 460 C215 395 238 370 270 368 C302 370 325 395 325 460 Z" fill="#1f2a24"/>
+      <!-- cuello -->
+      <rect x="262" y="350" width="16" height="22" rx="6" fill="#8a6a50"/>
+      <!-- cabeza -->
+      <ellipse cx="270" cy="332" rx="24" ry="27" fill="#8a6a50"/>
+      <!-- pelo (de espaldas) -->
+      <ellipse cx="270" cy="329" rx="25" ry="27" fill="#141010"/>
+      <path d="M252 312 q8 -12 22 -10 M262 306 q12 -6 24 4" stroke="#2a2220" stroke-width="2" fill="none"/>
+      <!-- audífonos -->
+      <path d="M244 330 C244 300 296 300 296 330" stroke="#d4af37" stroke-width="4" fill="none"/>
+      <rect x="238" y="324" width="10" height="18" rx="4" fill="#d4af37"/>
+      <rect x="292" y="324" width="10" height="18" rx="4" fill="#d4af37"/>
+    </g>
+
+    <!-- Gato durmiendo en el escritorio -->
+    <g transform="translate(40 330)">
+      <ellipse cx="40" cy="22" rx="38" ry="16" fill="#2b2b2b"/>
+      <circle cx="12" cy="14" r="12" fill="#2b2b2b"/>
+      <path d="M3 6 L4 -6 L12 3 Z M14 3 L22 -5 L22 7 Z" fill="#2b2b2b"/>
+      <path d="M7 15 q3 2 6 0" stroke="#d4af37" stroke-width="1.2" fill="none"/>
+      <path d="M76 28 q16 4 4 -14" stroke="#2b2b2b" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <text x="30" y="-8" font-family="Fira Code, monospace" font-size="10" fill="#f5f5f0" opacity="0">z
+        <animate attributeName="opacity" values="0;0.7;0" dur="3s" repeatCount="indefinite"/>
+      </text>
+      <text x="38" y="-18" font-family="Fira Code, monospace" font-size="13" fill="#f5f5f0" opacity="0">Z
+        <animate attributeName="opacity" values="0;0.7;0" dur="3s" begin="1s" repeatCount="indefinite"/>
+      </text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="439" height="459" rx="14" fill="none" stroke="#262626"/>
+</svg>
