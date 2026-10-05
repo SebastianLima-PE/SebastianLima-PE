@@ -23,7 +23,7 @@ const sebastian = {
   ],
 
   learning: [
-    "Machine Learning (AWS)",
+    "Machine Learning (AWS · IBM)",
     "Swift / iOS",
     "System Design",
   ],
@@ -80,6 +80,7 @@ const sebastian = {
 <img src="https://img.shields.io/badge/PayPal_API-00457C?style=flat-square&logo=paypal&logoColor=white"/>
 <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logoColor=0a0a0a"/>
 <img src="https://img.shields.io/badge/AWS_ML-232F3E?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vertex_AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
 <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white"/>
 <img src="https://img.shields.io/badge/Bcrypt-338?style=flat-square&logoColor=white"/>
 <br/>
@@ -135,10 +136,13 @@ Dos **apps móviles conectadas** contra la anemia infantil, pensadas para los es
 
 | 📜 Certificación | 🏛️ Institución | 📅 Fecha |
 |---|---|---|
-| **Power BI Intensivo** | IDAT · Intercorp | Feb – Mar 2026 |
+| **Data Analytics for Machine Learning** | IBM SkillsBuild | Sep 2026 |
+| **SQL (Advanced) Certificate** | HackerRank | Ago 2026 |
+| **Fundamentals of Machine Learning & AI** | AWS Training & Certification | Jul 2026 |
+| **Especialización Python for Everybody** | University of Michigan · Coursera | Abr – Jun 2026 |
+| **Prompt Design in Vertex AI** | Google Cloud | Abr – May 2026 |
 | **Google IT Support Professional Certificate** | Google · Coursera | Mar – Abr 2026 |
-| **Especialización Python for Everybody** | University of Michigan · Coursera | Abr – May 2026 |
-| **Fundamentals of Machine Learning & AI** | AWS Training & Certification | Jun – Jul 2026 |
+| **Power BI Intensivo** | IDAT · Intercorp | Feb – Mar 2026 |
 
 </div>
 
