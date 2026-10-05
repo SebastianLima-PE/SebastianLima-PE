@@ -129,12 +129,6 @@ Dos **apps móviles conectadas** contra la anemia infantil, pensadas para los es
 </tr>
 </table>
 
-## 🗺️ Roadmap
-
-<div align="center">
-<img src="./assets/roadmap.svg" width="100%" alt="Roadmap: 2023 ingreso a UPC · Ene 2026 FinTú & Co. · Mar 2026 Ferova con MINSA · Feb-Jul 2026 cuatro certificaciones · 2027 prácticas pre-profesionales"/>
-</div>
-
 ## 📜 Certificaciones
 
 <div align="center">
