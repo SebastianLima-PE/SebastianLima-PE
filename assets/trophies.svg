@@ -17,7 +17,7 @@
       <rect x="-10" y="16" width="20" height="5" rx="1.5"/>
       <text y="1" text-anchor="middle" class="r" fill="#0a0a0a">A</text>
     </g>
-    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">373</text>
+    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">401</text>
     <text x="55" y="116" text-anchor="middle" class="u" fill="#8a8a8a">commits</text>
   </g>
   <g transform="translate(120 0)" opacity="0">
@@ -62,7 +62,7 @@
       <rect x="-10" y="16" width="20" height="5" rx="1.5"/>
       <text y="1" text-anchor="middle" class="r" fill="#0a0a0a">B</text>
     </g>
-    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">4</text>
+    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">5</text>
     <text x="55" y="116" text-anchor="middle" class="u" fill="#8a8a8a">repos</text>
   </g>
   <g transform="translate(0 140)" opacity="0">
@@ -92,7 +92,7 @@
       <rect x="-10" y="16" width="20" height="5" rx="1.5"/>
       <text y="1" text-anchor="middle" class="r" fill="#0a0a0a">A</text>
     </g>
-    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">70</text>
+    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">76</text>
     <text x="55" y="116" text-anchor="middle" class="u" fill="#8a8a8a">en el último año</text>
   </g>
   <g transform="translate(240 140)" opacity="0">
