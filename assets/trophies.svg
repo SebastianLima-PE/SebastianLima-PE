@@ -62,7 +62,7 @@
       <rect x="-10" y="16" width="20" height="5" rx="1.5"/>
       <text y="1" text-anchor="middle" class="r" fill="#0a0a0a">B</text>
     </g>
-    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">5</text>
+    <text x="55" y="100" text-anchor="middle" class="v" fill="#f5f5f0">4</text>
     <text x="55" y="116" text-anchor="middle" class="u" fill="#8a8a8a">repos</text>
   </g>
   <g transform="translate(0 140)" opacity="0">
